@@ -41,3 +41,4 @@ function testNotEqual(val) {
   console.log(testNotEqual(12));
   console.log(testNotEqual("12"));
   console.log(testNotEqual("bob"));
+  
