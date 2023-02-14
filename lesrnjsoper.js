@@ -26,7 +26,7 @@ function testStrict(val,vali) {
   }
   
   console.log (testStrict(10,10));
-  console.log (testStrict("7"));
+  
 //   !=
 // Setup
 function testNotEqual(val) {
