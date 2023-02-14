@@ -27,8 +27,7 @@ function testStrict(val,vali) {
   
   console.log (testStrict(10,10));
   
-//   !=
-// Setup
+
 function testNotEqual(val) {
     if (val!=99) { // Change this line
       return "Not Equal";
