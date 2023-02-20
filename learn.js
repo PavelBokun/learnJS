@@ -20,4 +20,4 @@ function House(numBedrooms) {
   }
   
   
-  prci(39)
+  prci(37)
