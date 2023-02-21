@@ -32,4 +32,4 @@ function House(numBedrooms) {
 
     }
 
-t(48)
+t(47)
