@@ -21,3 +21,15 @@ function House(numBedrooms) {
   
   
   prci(37)
+
+
+  function t(num){
+    
+    for (let i = 0; num>9; i++){
+      num = num.toString().split('').reduce((t, c) => c * t);
+      alert(num)
+    }
+
+    }
+
+t(48)
