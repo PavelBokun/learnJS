@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       function last(x){
+  return x.split(" ").sort((a, b)=> a.slice(-1)>b.slice(-1));
+}
+function last(x){
+  return x.split(' ').sort((a, b) => a.charCodeAt(a.length - 1) - b.charCodeAt(b.length - 1));
+}
+function last(x){
+  return x.split(" ").sort((a, b)=> a.slice(-1)>b.slice(-1));
+}
+function last(x) {
+  return x.split(' ')
+    .map((x, i) => [x, i])
+    .sort((a, b) => a[0].slice(-1).localeCompare(b[0].slice(-1)) || a[1] - b[1])
+    .map(x => x[0])
+}
+    </script>
+</body>
+</html>
