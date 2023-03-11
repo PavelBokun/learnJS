@@ -33,3 +33,16 @@ function House(numBedrooms) {
     }
 
 t(47)
+// возведение в степень 
+function numberToPower(number, power){
+   
+  let result = number;
+  if(power<=0){
+   alert( number=1);
+  }
+for (let i = 1; i < power; i++) {
+  result *= number;
+}
+alert (result);
+}
+numberToPower(4,0);
